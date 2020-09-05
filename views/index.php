@@ -14,7 +14,7 @@
     
 
   <div class="header">
-      <img src="img/1.jpg" alt="">
+      <img src="img/back.jpg" alt="">
   </div>
 
       <div class="container">
@@ -128,8 +128,8 @@
                         <?php endif; ?>  
                   </td>
                   <td class="text-center" >  
-                    <a href="<?=base_url?>book/edit&id=<?=$book->id?>" class="btn btn-warning btn-lg">Editar</a>
-                    <a class="btn btn-danger btn-lg mt-1" data-toggle="modal" data-target="#deleteModal"">Eliminar</a>
+                    <a href="<?=base_url?>book/edit&id=<?=$book->id?>" class="btn btn-warning btn-block">Editar</a>
+                    <a class="btn btn-danger btn-block mt-1" data-toggle="modal" data-target="#deleteModal"">Eliminar</a>
                   </td>
                 </tr>
               </tbody>
@@ -164,9 +164,9 @@
 
     </div>
   <?php endif; ?>
-       
+  </div>
   <footer class="footer text-center">
-    <p>Diseñado por &copy Cesar Pandares</p> 
+    <p>Diseñado por &copyCesar Pandares</p> 
   </footer>
 
     
