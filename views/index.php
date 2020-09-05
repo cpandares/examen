@@ -98,7 +98,7 @@
 
           <?php endif; ?>
 
-      <?php Utils::deleteSession('producto'); ?>
+      <?php Utils::deleteSession('book'); ?>
 
           <table class="table table-bordered table-hover">
 

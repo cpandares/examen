@@ -58,15 +58,15 @@ class BookController  {
 				}
 				
 				if($save){
-					$_SESSION['book'] = "complete";
+					$_SESSION['book'] = 'complete';
 				}else{
-					$_SESSION['book'] = "failed";
+					$_SESSION['book'] = 'failed';
 				}
 			}else{
-				$_SESSION['book'] = "failed";
+				$_SESSION['book'] = 'failed';
 			}
 		}else{
-			$_SESSION['book'] = "failed";
+			$_SESSION['book'] = 'failed';
 		}
 		header('Location:'.base_url);
 	}
