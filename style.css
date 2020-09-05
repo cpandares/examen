@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background: #cccccc !important;
+    --table-width: 100%;
+}
+
+.header{
+    height: 450px;
+    width: 100%;
+}
+.header img{
+    height: 100%;
+    width: 100%;
+}
+.register{
+    
+    width: 90%;
+    margin-left: 15px !important;
+}
+.diplay{
+    width: 100% !important;
+}
+
+
+thead, tbody, tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+thead {
+    width: calc( 100%  )
+} 
+
+.book-table{
+    width: 350px !important;
+    height:200px !important;
+}
+
+.book-product{
+    width: 90% !important;
+    max-height: 150px ;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.footer{
+    height: 60px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    line-height: 45px;
+}
+
